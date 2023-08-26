@@ -1,0 +1,36 @@
+/* *allstyles */
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* header styles */
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 7.5rem;
+    margin-left: 7.5rem;
+
+}
+
+.navitems ul {
+    display: flex;
+    gap: 2.13rem;
+}
+
+.navitems ul li {
+    list-style: none;
+}
+
+.navitems {
+    color: #3A3A3A;
+    font-weight: 600;}
+
+
+.navtitle {
+    color: #3A3A3A;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
