@@ -1,6 +1,6 @@
 /* *allstyles */
 * {
-    font-family: 'Poppins', sans-serif ;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 
 }
 
@@ -80,11 +80,12 @@
     padding: 10px 24px;
     align-items: flex-start;
     gap: 8px;
+    border: none;
 }
 
 .prebook-button {
     border-radius: 41px;
-    border: none;
+
 }
 
 .sponsors-container {
@@ -95,8 +96,8 @@
 
 /* collection section styles */
 
-.collection {
-    /* margin: 100px ; */
+.collection{
+    
 }
 
 .sectiontitle {
@@ -131,13 +132,13 @@
 
 
 .itemname {
-    color:  #18191F;
+    color: #18191F;
     font-size: 28px;
     font-weight: 500;
     line-height: 40px;
     margin-top: 16px;
     margin-bottom: 6px;
-   
+
 }
 
 
@@ -159,6 +160,54 @@
     margin: 15px 0;
 }
 
+/* featuresection styles */
+
+.featuredsection {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 100px 150px;
+
+}
+
+.featurecontainer {
+    /* margin-left: 50px; */
+}
+
+.featureimg {
+    /* max-width: 300px;
+    max-width: 200px; */
+}
+
+.featuretitle {
+    color: #0A0826;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+
+
+.featuredescription {
+    color: #6C6C6C;
+    font-weight: 700;
+}
+
+
+
+/* footer style */
+
+footer {
+
+    background: #0A0826;
+    color: #FFF;
+    text-align: center;
+}
+
+.footertitle {
+    font-size: 24px;
+    font-weight: 700;
+}
+
 
 
 
@@ -174,6 +223,11 @@
 
 @media screen and (max-width:576px) {
 
+    
+    
+    *{margin: 5px 1px;
+
+    }
     .navigation {
 
         display: none;
@@ -194,11 +248,12 @@
 
     /* main section  */
 
-    main{
+    main {
         margin: 0 0;
     }
-    
-    .journey {
+
+    .journey,
+    .featuredsection {
         flex-direction: column-reverse;
         margin: 5px 0;
 
@@ -212,16 +267,16 @@
     /* collection section */
 
     .collection {
-    
-        margin: 10px 10px ;
+
+        margin: 10px 10px;
     }
 
     .cards-container {
         justify-content: center;
         grid-template-columns: repeat(1, 1fr);
         gap: 10px;
-       
+
     }
-    
-    
+
+
 }
